@@ -137,7 +137,10 @@ in your preferred browser.
 
 ## 📸 Screenshots
 
-Add screenshots of the application here.
+<img width="1361" height="608" alt="image" src="https://github.com/user-attachments/assets/f8fe95a1-c4a9-4641-bc41-9ee65c7b0862" />
+<img width="1364" height="604" alt="image" src="https://github.com/user-attachments/assets/7999f1a8-22cc-43a8-96a6-eda09c3ef64a" />
+<img width="1366" height="604" alt="image" src="https://github.com/user-attachments/assets/37346878-af65-4d1d-aff5-4a81626a876d" />
+
 
 ## 👨‍💻 Author
 
