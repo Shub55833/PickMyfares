@@ -1,119 +1,148 @@
-# PickMyFares - Flight Booking Landing Page
+# ✈️ PickMyFares
 
-A responsive flight booking landing page inspired by modern travel websites. This project was built using only HTML, CSS, and JavaScript to demonstrate frontend development skills, responsive layouts, and interactive user interfaces without using any frontend frameworks.
+PickMyFares is a responsive flight booking and travel inquiry website built using HTML, CSS, and JavaScript. The project focuses on providing a clean user interface for users to search travel information, explore services, and submit travel-related inquiries.
 
-## Overview
+## 🚀 Features
 
-PickMyFares is a travel booking website interface that allows users to search for flights, select travel dates, choose passenger counts, and submit travel inquiries through a clean and user-friendly design.
+* Fully responsive design
+* Flight search interface
+* Contact and inquiry forms
+* FAQ section
+* About Us page
+* Privacy Policy page
+* Cookie Policy page
+* Terms & Conditions page
+* Cancellation Policy page
+* SEO-friendly sitemap
+* Cross-browser compatibility
 
-## Features
-
-* Responsive landing page design
-* Flight search section
-* Departure and destination inputs
-* Travel date selection
-* Passenger selection
-* Contact and inquiry form
-* Modern UI with smooth user experience
-* Mobile, tablet, and desktop compatibility
-* Clean navigation menu
-* Reusable and organized code structure
-
-## Technologies Used
+## 🛠️ Tech Stack
 
 * HTML5
 * CSS3
 * JavaScript (Vanilla JS)
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
-pickmyfares/
+PICKMYFARES/
 │
+├── about/
+├── cancellation_policy/
+├── contact_us/
+├── cookie_policy/
+├── faq/
+├── images/
+├── privacy_policy/
+├── terms_and_condition/
+│
+├── cancellationpolicy.js
+├── contact.js
+├── Contactstyle.css
+├── cookie-policy.css
+├── faq.js
+├── favicon.ico
+├── footer.css
 ├── index.html
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-└── README.md
+├── script.js
+├── sitemap.xml
+├── style.css
+└── talkto.js
 ```
 
-## Learning Objectives
+## 📄 Pages Included
 
-This project was created to practice:
+### Home Page
 
-* Semantic HTML
-* Responsive Web Design
-* Flexbox and CSS Grid
-* DOM Manipulation
-* Form Handling
-* UI/UX Design Principles
-* Cross-device Compatibility
+* Flight booking search interface
+* Hero section
+* Service highlights
+* Responsive navigation
 
-## Installation
+### About Us
 
-1. Clone the repository
+* Company overview
+* Mission and vision
+
+### Contact Us
+
+* User inquiry form
+* Contact information
+
+### FAQ
+
+* Frequently asked questions section
+
+### Privacy Policy
+
+* User privacy and data handling information
+
+### Cookie Policy
+
+* Cookie usage details
+
+### Terms & Conditions
+
+* Website usage guidelines
+
+### Cancellation Policy
+
+* Booking cancellation rules and policies
+
+## 🎯 Key Learning Outcomes
+
+This project demonstrates:
+
+* Semantic HTML structure
+* Responsive web design
+* CSS Flexbox and Grid layouts
+* DOM manipulation using JavaScript
+* Form handling
+* Multi-page website architecture
+* SEO basics using sitemap.xml
+* Clean and maintainable code organization
+
+## ⚙️ Installation
+
+Clone the repository:
 
 ```bash
 git clone <repository-url>
 ```
 
-2. Open the project folder
+Navigate to the project folder:
 
 ```bash
-cd pickmyfares
+cd PICKMYFARES
 ```
 
-3. Run the project
+Run the project by opening:
 
-Simply open `index.html` in your browser.
+```text
+index.html
+```
 
-## Key Features Implemented
+in your preferred browser.
 
-### Responsive Design
-
-The website adapts seamlessly across desktop, tablet, and mobile devices.
-
-### Interactive Forms
-
-Users can enter travel information and submit inquiries through intuitive forms.
-
-### Modern Layout
-
-Clean sections for flight search, offers, services, and contact information.
-
-### Performance Optimized
-
-Built without external frameworks, ensuring fast loading and lightweight performance.
-
-## Future Improvements
+## 🔮 Future Enhancements
 
 * Flight API integration
-* Dynamic fare search
+* Dynamic fare comparison
 * User authentication
 * Booking management system
 * Payment gateway integration
+* Real-time flight availability
 * Multi-language support
-* Dark mode support
+* Dark mode
 
-## Screenshots
+## 📸 Screenshots
 
-Add project screenshots here.
+Add screenshots of the application here.
 
-## Author
+## 👨‍💻 Author
 
-Shubham Poddar
+**Shubham Poddar**
 
-## Purpose
+## 📜 License
 
-This project was developed for learning, portfolio showcase, and frontend development practice.
-
-## License
-
-Free to use for educational and personal portfolio purposes.
+This project is created for educational, learning, and portfolio purposes.
