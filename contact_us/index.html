@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Pick My Fares</title>
+    <meta
+      name="description"
+      content="Contact PickMyFares for flight booking assistance and support."
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/Contactstyle.css" />
+    <link rel="stylesheet" href="/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="spinner"></div>
+    </div>
+    <div class="content">
+      <nav class="navbar">
+        <!-- LEFT (LOGO) -->
+        <a href="/" class="nav-left">
+          <img class="companylogo" src="/images/Logo.png" alt="logo" />
+          <div class="logo-box">
+            <h2>PICKMYFARES</h2>
+            <p>Travel made personal.</p>
+          </div>
+        </a>
+
+        <!-- CENTER (MENU) -->
+        <div class="nav-center">
+          <a href="/">Home</a>
+          <a href="/contact_us">Contact Us</a>
+          <a href="/about">About us</a>
+        </div>
+
+        <!-- RIGHT (CONTACT) -->
+        <div class="nav-right">
+          <div class="top-call-bar">
+            <div class="call-left">
+              <img src="/images/support.png" alt="support" />
+              <div>
+                <h3>
+                  <a class="nav-right-content" href="tel:+447990974872"
+                    >+44-799-097-4872</a
+                  >
+                </h3>
+                <p>Book online or call us 24/7</p>
+              </div>
+            </div>
+
+            <div class="call-right">
+              <img src="/images/flag.png" alt="flag" />
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- HERO -->
+      <section class="contact-hero">
+        <h1>CONTACT US</h1>
+      </section>
+
+      <!-- CONTACT BOX -->
+      <section class="contact-section">
+        <div class="contact-container">
+          <!-- MAP -->
+          <div class="map">
+            <iframe
+              src="https://maps.google.com/maps?q=52.487214,-2.008668&z=15&output=embed"
+              width="100%"
+              height="100%"
+              style="border: 0"
+            ></iframe>
+          </div>
+
+          <!-- FORM -->
+          <form class="contact-form" id="contactForm">
+            <h2>Get In Touch</h2>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content.
+            </p>
+
+            <div class="form-row">
+              <input type="text" id="c_name" placeholder="Your Name" required />
+              <input
+                type="email"
+                id="c_email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+
+            <input
+              type="text"
+              id="c_subject"
+              placeholder="Your Subject"
+              required
+            />
+            <textarea
+              required
+              id="c_message"
+              placeholder="Write Your Message"
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+          <div id="successPopup" class="custom-popup">
+            <div class="popup-box">
+              <h2 id="popupTitle">Thank You!</h2>
+              <p id="popupMessage">Your request has been submitted.</p>
+              <button onclick="closePopup()">OK</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INFO CARDS -->
+      <section class="contact-cards">
+        <div class="detail-card">
+          <div class="icon">
+            <img src="/images/Location.jpg" alt="Location" />
+          </div>
+          <h3>Office Address</h3>
+          <p>23 Barrs Street, Oldbury, West Midlands, B68 8QU</p>
+        </div>
+
+        <div class="detail-card">
+          <div class="icon"><img src="/images/call.png" alt="" /></div>
+          <h3>Call Us</h3>
+          <p>+44-799-097-4872</p>
+        </div>
+
+        <div class="detail-card">
+          <div class="icon"><img src="/images/mail.png" alt="" /></div>
+          <h3>Email Us</h3>
+          <p>Sales@pickmyfares.co.uk</p>
+        </div>
+      </section>
+
+      <section class="subscribe">
+        <div class="subscribe-content">
+          <!-- LEFT -->
+          <div class="subscribe-left">
+            <img src="/images/policymail.png" alt="mail" />
+
+            <div>
+              <h2>Get Updates & More</h2>
+              <p>Thoughtful thoughts to your inbox</p>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="subscribe-right">
+            <input type="email" id="emailInput" placeholder="Email Here..." />
+            <button id="subscribeBtn">Subscribe</button>
+          </div>
+
+          <!-- TOOLTIP -->
+          <div id="subscribeMsg">Thanks for subscribing!</div>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- LEFT -->
+          <div class="footer-col">
+            <p class="quote">
+              Pick your destination.<br />
+              your price.<br />Pick My Fares – travel made personal.
+            </p>
+
+            <h4>Keep In Touch</h4>
+
+            <div class="payments">
+              <h5 style="margin-top: 10px">We Accept</h5>
+              <img style="width: 20rem" src="/images/cards.png" alt="payment" />
+              <img style="width: 3rem" src="/images/paypal.png" alt="cards" />
+            </div>
+          </div>
+
+          <!-- LINKS -->
+          <div class="footer-col">
+            <h3>Useful Links</h3>
+            <ul>
+              <li><a href="/">Flight Tickets</a></li>
+              <li><a href="/contact_us">Phone Only Deal</a></li>
+              <li><a href="/cookie_policy">Cookie Policy</a></li>
+              <li><a href="/faq">FAQ</a></li>
+            </ul>
+          </div>
+
+          <!-- CONTACT -->
+          <div class="footer-col">
+            <h3>Contact Us</h3>
+            <p style="margin-bottom: 10px">
+              📍 23 Barrs Street, Oldbury, West Midlands, B68 8QU
+            </p>
+            <p style="margin-bottom: 10px">
+              📞 <a href="tel:+447990974872">+44-799-097-4872</a>
+            </p>
+            <p style="margin-bottom: 10px">
+              ✉
+              <a href="mailto:Sales@pickmyfares.co.uk"
+                >Sales@pickmyfares.co.uk</a
+              >
+            </p>
+          </div>
+
+          <!-- WHATSAPP -->
+          <div class="footer-col whatsapp-box">
+            <div class="whatsapp">
+              <span>
+                <img src="/images/WhatsApp_Icon.png" alt="WhatsApp" />
+              </span>
+
+              <strong>
+                <a
+                  href="https://wa.me/447990974872?text=Hi%20I%20want%20to%20book%20a%20flight"
+                  target="_blank"
+                  class="whatsapp-btn"
+                >
+                  +44-799-097-4872
+                </a>
+              </strong>
+            </div>
+
+            <p class="whatsapp-quote">Join us on Whatsapp!</p>
+
+            <!-- SOCIAL -->
+            <div class="social-section">
+              <p>Follow us on</p>
+
+              <div class="social-icons">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61579327490750"
+                  target="_blank"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/pickmyfares?igsh=em16eWFhdzduNGR4&utm_source=ig_contact_invite"
+                  target="_blank"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BOTTOM -->
+        <div class="footer-bottom">
+          <div class="links">
+            <span class="cancelLink" id="about-us">About Us</span> |
+            <span class="cancelLink" id="terms-and-condition"
+              >Terms of Service</span
+            >
+            |
+            <span class="cancelLink" id="privacy-policy">Privacy Policy</span> |
+            <span class="cancelLink" id="cancelPolicy"
+              >Cancellation and refund Policy</span
+            >
+          </div>
+
+          <div class="copyright">
+            Copyright © 2026 PickMyFares LTD. All rights reserved<br /><br />The
+            images we used on the site are not copyrighted by us. We have
+            downloaded them from Google.<br />
+            If the images are copyrighted by anyone then please write us for
+            removal.
+          </div>
+
+          <!-- PAYMENT -->
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script defer src="/contact.js"></script>
+    <script defer src="/cancelpolicy.js"></script>
+    <script defer src="/talkto.js"></script>
+  </body>
+</html>
